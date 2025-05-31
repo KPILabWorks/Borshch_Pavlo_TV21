@@ -71,6 +71,6 @@ plt.tight_layout()
 plt.show()
 
 # === Консольний вивід ===
-print(f"\n🔍 Виявлено {len(turns_df)} поворотів:")
+print(f"\nВиявлено {len(turns_df)} поворотів:")
 print(turns_df.to_string(index=False))
-print("\n✅ Аналітичний звіт збережено у 'turn_report.csv'")
+print("\nАналітичний звіт збережено у 'turn_report.csv'")
