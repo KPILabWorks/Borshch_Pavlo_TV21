@@ -73,4 +73,3 @@ plt.show()
 # === Консольний вивід ===
 print(f"\nВиявлено {len(turns_df)} поворотів:")
 print(turns_df.to_string(index=False))
-print("\nАналітичний звіт збережено у 'turn_report.csv'")
